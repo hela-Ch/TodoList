@@ -12,7 +12,7 @@ input.addEventListener("input",function(){
 //eventListeners
 button.addEventListener("click",addTodo);
 todoList.addEventListener("click", deleteCheck);
-categoryElt.addEventListener("change", filterTodo)
+categoryElt.addEventListener("change", filterTodo);
 
 //if we click tha add button we add an list item with 2 button delete and complete
 function addTodo(event){

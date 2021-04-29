@@ -11,23 +11,25 @@
         <header>
             <h1 id ="title">   My Todo List</h1>
         </header>
+        <main>
             <form>
-            <div class="flexContainer">    
-            <input type="text" name="inputField" id="inputField" placeholder ="Enter the work">
-            <button id="todo_button" type="submit" disabled >
-              <i class="fa fa-plus-square"></i>
-                </button>  
+                <div class="flexContainer">    
+                    <input type="text" name="inputField" id="inputField" placeholder ="Enter the work">
+                    <button id="todo_button" type="submit" disabled >
+                      <i class="fa fa-plus-square"></i>
+                    </button>  
                 </div>
-            <select  name ="categories" id ="category">
-                <option value ="All"> All </option>
-                <option value ="Not Done">  Not Done </option>
-                <option value ="Done"> Done </option>
-    
-            </select>
+                <select  name ="categories" id ="category">
+                    <option value ="All"> All </option>
+                    <option value ="Not Done">  Not Done </option>
+                    <option value ="Done"> Done </option>
+        
+                </select>
             </form>
             <div class ="todo_container">
               <ul id ="todo_list"></ul>
             </div>
+        </main>    
         
     <script src="toDoList.js"></script>
     </body>
